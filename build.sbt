@@ -8,6 +8,8 @@ licenses := Seq("CC BY-SA 4.0" -> url("https://creativecommons.org/licenses/by-s
 
 scalaVersion := "2.11.6"
 
+fork := true
+
 libraryDependencies := Seq(
     "org.antlr" % "antlr4" % "4.5",
     "com.typesafe.scala-logging" %% "scala-logging" % "3.1.0",
